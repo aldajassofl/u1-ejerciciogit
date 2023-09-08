@@ -2,6 +2,84 @@
 <html>
 <head>
     <title>Formulario de Producto</title>
+
+        <style>
+       
+        body {
+            font-family: Arial, sans-serif; 
+        }
+
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+
+        li {
+            margin-right: 10px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ccc;
+        }
+
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        select {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        select {
+            height: 35px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -9,13 +87,13 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
         <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
-        <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
-        <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+        <li><a href="nuevoarticulo.html">Nuevo Articulo</a></li>
+        <li><a href="consultaarticulos.html">Consulta Articulos</a></li>
     </ul>
 
     <form action="">
-        <label for="Descrip">Descripción:</label>
-        <input type="text" id="Descrip" name="Descrip" placeholder="Ingrese la descripción" required>
+        <label for="Descrip">Descripcion:</label>
+        <input type="text" id="Descrip" name="Descrip" placeholder="Ingrese la descripcion" required>
 
         <label for="Cantidad">Cantidad:</label>
         <input type="text" id="Cantidad" name="Cantidad" placeholder="Ingrese la cantidad" required>
