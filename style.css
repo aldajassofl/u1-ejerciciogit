@@ -16,9 +16,14 @@ html {
     justify-content: center;
 }
 
-.div-navegador ul{
+.div-navegador ul {
     border: 2px solid black;
     list-style: none;
     display: flex;
+    justify-content:space-around ;
+    padding: 10em;
     
+}
+.div-navegador li {
+    border: 2px solid blue;
 }
