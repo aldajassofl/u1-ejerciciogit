@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Producto</title>
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+        <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+        <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+        <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+    </ul>
+
+    <form action="">
+        <label for="Descrip">Descripción:</label>
+        <input type="text" id="Descrip" name="Descrip" placeholder="Ingrese la descripción" required>
+
+        <label for="Cantidad">Cantidad:</label>
+        <input type="text" id="Cantidad" name="Cantidad" placeholder="Ingrese la cantidad" required>
+
+        <label for="PUnitario">Precio Unitario:</label>
+        <input type="text" id="PUnitario" name="PUnitario" placeholder="Ingrese el precio unitario" required>
+
+        <label for="Marca">Marca:</label>
+        <select name="Marca" id="Marca">
+            <option value="DELL">DELL</option>
+            <option value="LG">LG</option>
+            <option value="APPLE">APPLE</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
